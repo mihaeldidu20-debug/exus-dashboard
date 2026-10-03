@@ -1,0 +1,2 @@
+import Sidebar from "./components/Sidebar";import Topbar from "./components/Topbar";import Dashboard from "./pages/Dashboard";
+export default function App(){return <div className="min-h-screen bg-[#05070d] text-white"><Sidebar/><div className="min-h-screen ml-64"><Topbar/><main className="p-8"><Dashboard/></main></div></div>}
